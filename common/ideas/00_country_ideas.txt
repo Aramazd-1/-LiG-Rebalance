@@ -1119,7 +1119,7 @@ ARA_ideas = {
 MUG_ideas = {
 	start = {
 		core_creation = -0.25
-		cavalry_power = 0.20
+		land_morale = 0.10
 	}
 	
 	bonus = {
@@ -1150,7 +1150,7 @@ MUG_ideas = {
 		prestige = 1
 	}
 	fatawa_e_alamgiri = {
-		artillery_power = 0.1
+		stability_cost_modifier = 0.10
 	}
 }
 
