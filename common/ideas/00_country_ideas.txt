@@ -68,6 +68,7 @@ GBR_ideas = {
 	}
 	british_merchant_navy = {
 		global_tariffs = 0.15
+		infantry_power = 0.1
 	}
 	gbr_the_royal_society = {
 		technology_cost = -0.05
@@ -529,10 +530,10 @@ PRU_ideas = {
 		army_tradition_decay = -0.01
 	}
 	goose_step = {
-		infantry_power = 0.20
+		infantry_power = 0.10
 	}
 	regimental_cantons = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.10
 		global_regiment_recruit_speed = -0.10
 	}
 	religious_toleration = {
@@ -606,16 +607,15 @@ POL_ideas = {
 	folwark_system = {
 		production_efficiency = 0.1
 	}
-	nihil_novi = {
-		stability_cost_modifier = -0.1
-		war_exhaustion = -0.02
+	focus_on_field_defences = {
+		land_morale = 0.10
 	}
 	peichota_wybraniecka = {
 		global_manpower_modifier = 0.25
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
+		cavalry_power = 0.25
 		cav_to_inf_ratio = 0.10
 	}
 	wojsko_komputoe = {
@@ -624,8 +624,9 @@ POL_ideas = {
 	foreign_section = {
 		discipline = 0.05
 	}
-	focus_on_field_defences = {
-		land_morale = 0.15
+	nihil_novi = {
+		stability_cost_modifier = -0.1
+		war_exhaustion = -0.02
 	}
 }
 
@@ -1834,6 +1835,7 @@ ETH_ideas = {
 	}
 	hostile_borders = {
 		defensiveness = 0.20
+		global_manpower_modifier = 0.20
 	}
 	diplomatic_demeanor = {
 		diplomatic_reputation = 1
