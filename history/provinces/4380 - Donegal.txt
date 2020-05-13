@@ -1,7 +1,7 @@
 #4380 - Donegal
 
-owner = ULS
-controller = ULS
+owner = TRY
+controller = TRY
 culture = irish
 religion = catholic
 hre = no
@@ -11,7 +11,7 @@ trade_goods = fish
 base_manpower = 1
 capital = "Donegal"
 is_city = yes
-add_core = ULS
+add_core = TRY
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

@@ -1,7 +1,7 @@
 #4119 - Sligo
 
-owner = ULS
-controller = ULS
+owner = SLN
+controller = SLN
 culture = irish
 religion = catholic
 hre = no
@@ -11,7 +11,7 @@ trade_goods = naval_supplies
 base_manpower = 2
 capital = "Sligo"
 is_city = yes
-add_core = ULS
+add_core = SLN
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
