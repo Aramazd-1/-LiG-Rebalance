@@ -1,8 +1,8 @@
 #2758 - Illubabor
 
-owner = DAM
-controller = DAM
-add_core = DAM
+owner = ETH
+controller = ETH
+add_core = ETH
 culture = sidamo
 religion = coptic
 capital = "Illubabor"
