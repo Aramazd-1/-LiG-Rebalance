@@ -1150,7 +1150,7 @@ recruitmaster_boost = {
 }
 
 legacy_of_osman = {
-    land_morale = 0.075
+    land_morale = 0.10
 }
 
 fortification_expert_boost = {
