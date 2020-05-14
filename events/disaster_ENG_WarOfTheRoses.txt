@@ -33,9 +33,9 @@ country_event = {
 			dynasty = Lancaster
 			culture = ROOT
 			religion = ROOT
-			adm = 4
+			adm = 3
 			dip = 4
-			mil = 2
+			mil = 3
 			age = 31
 			claim = 100
 		}
@@ -106,9 +106,9 @@ country_event = {
 		define_ruler = {
 			dynasty = York
 			age = 31
-			adm = 4
+			adm = 3
 			dip = 4
-			mil = 4
+			mil = 3
 			claim = 100
 		}
 		if = {
