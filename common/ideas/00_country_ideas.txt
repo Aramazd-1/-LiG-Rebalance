@@ -1847,7 +1847,7 @@ ETH_ideas = {
 		core_creation = -0.10
 	}
 	eth_reformed_armies = {
-		infantry_power = 0.15
+		infantry_shock = 0.3
 	}
 }
 
@@ -12647,7 +12647,7 @@ MOR_ideas = {
 		naval_forcelimit_modifier = 0.25
 	}
 	bonus = {
-		hostile_attrition = 1
+		discipline = 0.05
 	}
 	trigger = {
 		tag = MOR
@@ -12671,8 +12671,8 @@ MOR_ideas = {
 		privateer_efficiency = 0.15
 	}
 	mor_slave_soldiers = {
-		land_maintenance_modifier = -0.05
-		cavalry_power = 0.1
+		fire_damage_received = -0.10
+		cavalry_power = 0.33
 	}
 	mor_curb_power_of_the_tribes = {
 		global_autonomy = -0.05
@@ -12685,15 +12685,15 @@ TUN_ideas = {
 		galley_power = 0.2		
 	}
 	bonus = {
-		naval_forcelimit_modifier = 0.25
+		discipline = 0.05
 	}
 	trigger = {
 		tag = TUN
 	}
 	free = yes
 	tun_catalan_guard = {
-		discipline = 0.05
 		infantry_power = 0.10
+
 	}
 	dual_diplomacy = {
 		diplomatic_upkeep = 1
