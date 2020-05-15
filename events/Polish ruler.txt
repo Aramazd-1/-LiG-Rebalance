@@ -1,14 +1,14 @@
-country_event = {
-	id = yamm.1
-	title = yamm.1.t
-	desc = yamm.1.d
+ country_event = {
+    id = hashmp.8
+	title = hashmp.8.t
+	desc = hashmp.8.d
 	picture = CIVIL_WAR_eventPicture
 
 	fire_only_once = yes
 
 	trigger = {
-		tag = TUR
-		NOT = { has_ruler = "Mehmed II Fatih" }
+		tag = POL
+		NOT = { adm = 6 dip = 6 mil = 6 }
 		NOT = { is_year = 1480 }
 	}
 
@@ -20,7 +20,7 @@ country_event = {
 					is_capital = no
 					is_in_capital_area = yes
 				}
-				save_event_target_as = hash_tur_pretenders
+				save_event_target_as = hash_pol_pretenders
 			}
 		}
 		hidden_effect = {
@@ -29,7 +29,7 @@ country_event = {
 					is_state = yes
 					is_capital = no
 				}
-				save_event_target_as = hash_tur_nobles
+				save_event_target_as = hash_pol_nobles
 			}
 		}
 		hidden_effect = {
@@ -38,49 +38,53 @@ country_event = {
 					is_state = yes
 					is_capital = no
 				}
-				save_event_target_as = hash_tur_nobles2
+				save_event_target_as = hash_pol_nobles2
 			}
 		}
 	 }
 
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 
 	option = {
-		name = yamm.1.a
+		name = hashmp.8.a
+		add_stability = 0
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 0
+		}
 		define_ruler = {
-			dynasty = ROOT
 			culture = ROOT
 			religion = ROOT
 			adm = 6
-			dip = 3
+			dip = 6
 			mil = 6
-			age = 30
-			claim = 80
+			age = 25
+			claim = 20
 		}
-		event_target:hash_tur_nobles = {
+		event_target:hash_pol_nobles = {
 			spawn_rebels = {
 				type = noble_rebels
-				size = 2
+				size = 0
 			}
 		}
-		event_target: tur_nobles2 = {
+		event_target:hash_pol_nobles2 = {
 			spawn_rebels = {
 				type = noble_rebels
-				size = 2
+				size = 0
 			}
 		}
 	}
 
 	option = {
-		name = yamm.1.b
+		name = hashmp.8.b
 		add_legitimacy = 20
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 10
 		}
-		event_target: tur_pretenders = {
+		event_target:hash_pol_pretenders = {
 			spawn_rebels = {
 				type = pretender_rebels
 				size = 2
